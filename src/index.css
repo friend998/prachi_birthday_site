@@ -1,0 +1,82 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
+All colors MUST be HSL.
+*/
+
+@layer base {
+  :root {
+    /* Romantic dark theme colors */
+    --romantic-dark-1: 240 29% 3%;
+    --romantic-dark-2: 240 18% 7%;
+    --romantic-lavender: 267 84% 81%;
+    --romantic-gold: 33 100% 82%;
+    --romantic-pink: 349 100% 90%;
+    --romantic-light: 240 20% 97%;
+    
+    /* Gradients */
+    --gradient-dark: linear-gradient(180deg, hsl(var(--romantic-dark-1)), hsl(var(--romantic-dark-2)));
+    --gradient-glow: radial-gradient(circle at center, hsl(var(--romantic-lavender) / 0.15), hsl(var(--romantic-gold) / 0.1), transparent);
+    
+    /* Shadows and glows */
+    --glow-gold: 0 0 40px hsl(var(--romantic-gold) / 0.4), 0 0 80px hsl(var(--romantic-gold) / 0.2);
+    --glow-pink: 0 0 40px hsl(var(--romantic-pink) / 0.5), 0 0 60px hsl(var(--romantic-pink) / 0.3);
+    --glow-lavender: 0 0 30px hsl(var(--romantic-lavender) / 0.4);
+    
+    /* Standard shadcn tokens */
+    --background: var(--romantic-dark-1);
+    --foreground: var(--romantic-light);
+    --card: var(--romantic-dark-2);
+    --card-foreground: var(--romantic-light);
+    --primary: var(--romantic-lavender);
+    --primary-foreground: var(--romantic-dark-1);
+    --secondary: var(--romantic-gold);
+    --secondary-foreground: var(--romantic-dark-1);
+    --accent: var(--romantic-pink);
+    --accent-foreground: var(--romantic-dark-1);
+    --muted: 240 18% 15%;
+    --muted-foreground: 240 10% 60%;
+    --border: 240 18% 15%;
+    --radius: 1rem;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground overflow-x-hidden;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .font-romantic {
+    font-family: 'Playfair Display', serif;
+  }
+  
+  .romantic-glow-gold {
+    box-shadow: var(--glow-gold);
+  }
+  
+  .romantic-glow-pink {
+    box-shadow: var(--glow-pink);
+  }
+  
+  .romantic-glow-lavender {
+    box-shadow: var(--glow-lavender);
+  }
+  
+  @keyframes float-up {
+    0% {
+      transform: translateY(0) rotate(0deg);
+      opacity: 0.8;
+    }
+    100% {
+      transform: translateY(-100vh) rotate(360deg);
+      opacity: 0;
+    }
+  }
+}
