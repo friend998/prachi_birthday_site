@@ -28,10 +28,21 @@ const Page4 = () => {
       {/* Main content */}
       <div className="fixed inset-0 z-10 flex flex-col items-center justify-center px-6 py-12">
         <div className={`max-w-3xl w-full transition-all duration-1500 ${fadeIn ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
-          
-          {/* Scrollable story text */}
-          <div 
-            className="max-h-[70vh] overflow-y-auto px-4 mb-12 text-center"
+  
+  {/* Heading */}
+  <h2 
+    className="text-4xl md:text-5xl font-romantic italic text-center mb-8"
+    style={{
+      color: '#00bfff',
+      textShadow: '0 0 30px rgba(0, 191, 255, 0.6)'
+    }}
+  >
+    the kid
+  </h2>
+
+  {/* Scrollable story text */}
+  <div 
+    className="max-h-[70vh] overflow-y-auto px-4 mb-12 text-center"
             style={{
               color: '#00bfff',
               scrollbarWidth: 'thin',
@@ -39,9 +50,9 @@ const Page4 = () => {
             }}
           >
             <p className="text-lg md:text-xl font-light leading-relaxed">
-              Ever since I was a kid in my school life, I was a loner, not much interested in anything. I saw my people go out, play, date, party, study just to get through, not try hard for anything. Knowing, being a single child, I always had everything on me before asking. Also knowing I just had to take over my dad's business after I graduate. The type that you only see directly on exam days. Got through 10th, took dummy school at Allen just so I wouldn't need to go to no one. This had been the case since I was a kid. My parents never asked me or forced me to do anything. Being the eldest son in our joint family, I knew my younger siblings were always watching and learning from each and every step I took, so I never could misuse or never wanted to misuse the freedom, tbh.
+              There was this kid ever since his school life he was a loner ,shy who never spoke much, not much interested in anything. he saw people go out, play, party, hangout he never thought those things were worth it, studying enough just to get through, not try hard for anything. Knowing, being a single child,he always had everything on him before asking. Also knowing he just had to take over his dad's business after graduation. The type that you only see directly on exam days. Got through 10th, took dummy school at Allen just so he wouldn't need to go to school. This had been the case since he was a kid. his parents never asked or forced him to do anything. Being the eldest son in a joint family, he knew my younger siblings were always watching and learning from each and every step he took, at the very least he had developed a sense of responsibinity watching his baba/father.
               <br /><br />
-              Then comes one day; I went to give this exam at Allen itself, saw this girl with a long ponytail. I don't think I could see your face; she was sitting right in front of me. I never cared about exams anyway, but when the invigilator left, everyone was looking here and there for answers except her—and me, ofc. I might as well sound like the ultimate side character. That left me questioning about her. I also had the same sitting arrangement for all the exams, and each exam had the same, and I noticed the same in each exam. This happened around the starting of 11th.
+              Then comes this one day; He went to give this exam at Allen itself, saw this girl with a long ponytail. I don't think he could see her face; she was sitting infront of him like 2 benches ahead. he never cared about exams anyway, but when the invigilator left, everyone was looking here and there for answers except for her—and him, ofc. I might as well sound like the ultimate side character. That left him questioning about her.the same sitting arrangement for all the exams, and each exam had the same, and he noticed the same in each exam. This happened around the starting of 11th.
             </p>
           </div>
 

@@ -86,9 +86,15 @@ export default {
           "100%": { opacity: "0" }
         },
         "glow-pulse": {
-          "0%, 100%": { opacity: "0.6", transform: "scale(1)" },
-          "50%": { opacity: "1", transform: "scale(1.05)" }
-        },
+            "0%, 100%": { 
+              transform: "scale(1)", 
+              boxShadow: "0 0 30px rgba(203, 166, 247, 0.4), 0 0 60px rgba(203, 166, 247, 0.2)" 
+            },
+            "50%": { 
+              transform: "scale(1.08)", 
+              boxShadow: "0 0 40px rgba(203, 166, 247, 0.8), 0 0 80px rgba(255, 214, 165, 0.4)" 
+            }
+          },
         "float": {
           "0%, 100%": { transform: "translateY(0px)" },
           "50%": { transform: "translateY(-20px)" }

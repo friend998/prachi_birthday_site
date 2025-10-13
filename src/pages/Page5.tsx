@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
+import firstLoveClip from "@/assets/firstloveclip.mp4";
 
 const Page5 = () => {
   const [fadeIn, setFadeIn] = useState(false);
@@ -28,12 +29,11 @@ const Page5 = () => {
       />
 
       {/* Main content */}
-      <div className="fixed inset-0 z-10 flex flex-col items-center justify-center px-6 py-12">
+      <div className="relative z-10 min-h-screen flex flex-col items-center justify-center px-6 py-12">
         <div className={`max-w-3xl w-full transition-all duration-1500 ${fadeIn ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
-          
-          {/* Scrollable story text */}
-          <div 
-            className="max-h-[70vh] overflow-y-auto px-4 mb-12 text-center"
+                {/* Scrollable story text */}
+                <div 
+        className="px-4 mb-12 text-center"
             style={{
               color: '#2b2b2b',
               scrollbarWidth: 'thin',
@@ -41,8 +41,27 @@ const Page5 = () => {
             }}
           >
             <p className="text-lg md:text-xl font-light leading-relaxed">
-              That 16-year-old kid started to go to coaching on a regular basis… made lots of friends, came out of his rabbit hole. The guy who barely went to school, took dummy school to avoid people, started making friends, started to hang out. Friends all happened because he started to his dummy school (Allen). Realized how fun it was to have friends—real friends. He always used to go to movies, restaurants alone, but he had someone to share the joy with now. All happened because he came out of his comfort zone and went to class, and after classes waited just to catch a glimpse of that girl. He was never significant for her to notice, tbh. He didn't ever understand what he was experiencing. Everything has a first time, guess so. He always slept through those, never spoke to this girl—maybe only once he did speak. The only thing he is to her is grateful.
+              That 16-year-old kid started to go to coaching on a regular basis… made lots of friends, came out of his rabbit hole. The guy who barely went to school, took dummy school to avoid people, started to go to allen //a place Traumatizing for most people//, started to hang out. Friends and all happened because he started to his dummy school (Allen),that kid, he went there on a regular basis.. just so after the classes...he could catch a glimpse of her. He was never significant for her to notice, tbh. He didn't ever understand what he was experiencing. Everything has a first time, guess so. He always slept through those awkard feelings, never spoke to this girl—maybe only once he did speak hehe. The only thing he is to her is gratefull.  how he felt(video) 👇
             </p>
+          </div>
+
+          {/* Video section */}
+          <div className={`flex justify-center mb-12 transition-all duration-1500 ${fadeIn ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
+            <div 
+              className="rounded-2xl overflow-hidden shadow-2xl mx-auto"
+              style={{
+                maxWidth: '800px',
+                boxShadow: '0 20px 60px rgba(0, 123, 255, 0.3), 0 0 40px rgba(255, 215, 0, 0.2)'
+              }}
+            >
+              <video
+                className="w-full h-auto"
+                controls
+                playsInline
+              >
+                <source src={firstLoveClip} type="video/mp4" />
+              </video>
+            </div>
           </div>
 
           {/* Next button with gradient shimmer */}

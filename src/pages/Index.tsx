@@ -102,15 +102,23 @@ const Index = () => {
           <div className={`transition-opacity duration-1000 ${showContinue ? 'opacity-100' : 'opacity-0 pointer-events-none'}`}>
             <button
               onClick={handleContinue}
-              className="px-10 py-4 text-lg font-light tracking-wider border-2 rounded-full transition-all duration-700 animate-glow-pulse"
+              className="px-10 py-4 text-lg font-light tracking-wider border-2 rounded-full transition-all duration-700 animate-glow-pulse relative overflow-hidden group"
               style={{
-                color: '#f4f4f9',
-                borderColor: '#cba6f7',
-                background: 'linear-gradient(135deg, rgba(203, 166, 247, 0.15), rgba(255, 214, 165, 0.15))',
-                boxShadow: '0 0 30px rgba(203, 166, 247, 0.4)'
-              }}
+                  color: '#f4f4f9',
+                  borderColor: '#cba6f7',
+                  background: 'linear-gradient(135deg, rgba(203, 166, 247, 0.2), rgba(255, 214, 165, 0.2))',
+                  position: 'relative',
+                  overflow: 'hidden'
+                }}
             >
-              Continue
+              {/* Shimmer effect */}
+              <span 
+                className="absolute inset-0 -translate-x-full group-hover:translate-x-full transition-transform duration-1000 ease-in-out"
+                style={{
+                  background: 'linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.3), transparent)'
+                }}
+              />
+              <span className="relative z-10">Continue</span>
             </button>
           </div>
         </div>

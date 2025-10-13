@@ -41,10 +41,23 @@ const Page3 = () => {
               fontFamily: 'Poppins, sans-serif'
             }}
           >
-            hey, before you go ahead I would like you to know it took hours for me to build this webpage.
+            Hey, before you go ahead I would like you to know it took hours for me to build this webpage.
           </p>
 
           {/* Second line */}
+          <p 
+            className={`text-2xl md:text-3xl font-light italic tracking-wide transition-all duration-1500 ${
+              showFirstLine ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'
+            }`}
+            style={{
+              color: '#f4f4f9',
+              fontFamily: 'Poppins, sans-serif'
+            }}
+          >
+            I have been talking to you with this ID around 5-6 months and here's my why and my side of the story.
+          </p>
+
+          {/* Third line */}
           <p 
             className={`text-2xl md:text-3xl font-light italic tracking-wide transition-all duration-1500 ${
               showSecondLine ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'
