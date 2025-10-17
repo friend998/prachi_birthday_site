@@ -104,7 +104,7 @@ const Index = () => {
               onClick={handleContinue}
               className="px-10 py-4 text-lg font-light tracking-wider border-2 rounded-full transition-all duration-700 animate-glow-pulse relative overflow-hidden group"
               style={{
-                  color: '#f4f4f9',
+                  color: '#f9f4f8ff',
                   borderColor: '#cba6f7',
                   background: 'linear-gradient(135deg, rgba(203, 166, 247, 0.2), rgba(255, 214, 165, 0.2))',
                   position: 'relative',

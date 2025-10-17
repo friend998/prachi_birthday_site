@@ -111,9 +111,9 @@ const Page10 = () => {
                   textShadow: '0 2px 10px rgba(0, 0, 0, 0.5)'
                 }}
               >
-                play music button 👆...but still I will do what I say. I will create a formula that takes me to your level—the level of a princess. I know I will have to work my ass off... you have my word there. Maybe not today, maybe not tomorrow, and maybe not the next month, but one day...
+                play music button 👆...but still I will do what I say. I will create a formula that takes me to your level—the level of a princess in my eyes(who made a impact just by existing). I know I will have to work my ass off... you have my word there. Maybe not today, maybe not tomorrow, and maybe not the next month, but one day...
                 <br /><br />
-                You're just so perfect. I feel I will have to be a multi-millionaire(why i needed time). I'm sorry I'm not 6 feet tall—I'm around 180 cm, 5'10"-11". I am pretty mid now that I think about it, even looks-wise. I will create a formula and level up in each aspect(thats the reason i said 2030). It would be fun having a purpose —....... it's fun, better than lazying around... 
+                you also asked me if"if i was ugly thats why i am texting you from this fake acc" so looks matter a lot to you. if so, ill tell everything from the start((you can skip this para if you are not interested, you might get bored here)). ill tell you how i look but not enough that you recognise me in public till grade 10th i was very fat weight around 85 kg height around 5'6  then i joined a boxing dojo, i wanted to learn how to fight (avg shonen watcher) ,... it was hell, i went there around 1.5 years they made me run 10km(brink of death) every morning then thy taught me sparring. by the end of 12th i lost around 13 kgs(73kgs) and i wouldnt call myself tall but i did grow from 168 to around 180 thx to the HGH spike while working out(the only glowup in my life), i am lean with mediumly broad sholders ,but i dont have a v taper my skin tone is dark brown,i have short boxed beard i dont know if i look good or not tbh cause i dont have any female friends my friends do say i look good but everyones friends so the same to make us feel good so idk. <br></br> <br></br> i dont think looks are the right factor to fall in love with someone, tbh i dont think anyone is permanetly ugly or good looking in this world because as you grow old your looks will eventually fade or as you start taking care of yourself you start to glow up . like fr the last time saw you was like 1 or 2 years a go. but if looks matter so much to you i guess i will have to have a have a second glowup and become a multi millionare at the same  time(to match your level i guess).
                 <br /><br />
                 <span 
                   className="italic"
@@ -122,7 +122,7 @@ const Page10 = () => {
                     opacity: 0.9
                   }}
                 >
-                  (Still, I wouldn't recommend waiting for your own good infact you shouldnt wait for anyone work hard and do whatever comes to your heart because life is very uncertain. I might as well die within the time period and you will never know who I was, and the texts from this account might stop at once.)
+                  (. for your own good infact you shouldnt wait for anyone work hard and do whatever comes to your heart because life is very uncertain. I might as well become unalive within the time period and you will never know who I was, and the texts from this account might stop at once.)
                 </span>
               </p>
             </div>

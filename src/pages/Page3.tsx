@@ -41,7 +41,7 @@ const Page3 = () => {
               fontFamily: 'Poppins, sans-serif'
             }}
           >
-            Hey, before you go ahead I would like you to know it took hours for me to build this webpage.
+            Hey, before you go ahead I would like you to know it took days for me to build this webpage.
           </p>
 
           {/* Second line */}
@@ -54,7 +54,7 @@ const Page3 = () => {
               fontFamily: 'Poppins, sans-serif'
             }}
           >
-            I have been talking to you with this ID around 5-6 months and here's my why and my side of the story.
+            We have been talking on this ID for around 5-6 months and here's my why and my side of the story.<br></br>WHO i am ? WHY i am doing this<br></br> ill tell you everything from the begining<br></br>
           </p>
 
           {/* Third line */}

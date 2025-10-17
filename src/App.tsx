@@ -15,7 +15,7 @@ import Page9 from "./pages/Page9";
 import Page10 from "./pages/Page10";
 import Page11 from "./pages/Page11";
 import Page12 from "./pages/Page12";
-import Page13 from "./pages/page13";
+import Page13 from "./pages/Page13";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();

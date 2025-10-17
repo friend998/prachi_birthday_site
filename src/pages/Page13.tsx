@@ -178,7 +178,7 @@ const Page13 = () => {
                 You have <span style={{ color: '#ff6b9d', fontWeight: '600', fontSize: '1.2em' }}>1 in 10 chance</span> to know who I am. Yes, I am risking my identity. This page will work only once.
                 <br /><br />
                 <span style={{ color: '#ffcad4', fontStyle: 'italic', fontSize: '1.1em' }}>
-                  Tah pare mo real naa paliba card pacharu refresh kale bhi se encrypt hei jai thiba
+                  Tah pare mo real naa paliba card pacharu refresh kale bhi se encrypt hei jai thiba. after this first attempt no matter how many time you try se default hi dekhiba no use of refreshing this page nut the first time it will work satare 
                 </span>
               </p>
             </div>
@@ -276,7 +276,7 @@ const Page13 = () => {
                   textShadow: '0 2px 20px rgba(255, 214, 165, 0.8)'
                 }}
               >
-                No luck... ufff I almost shit myself there 😅
+                No luck... ufff am alive 
               </p>
             </div>
           </div>
@@ -321,7 +321,7 @@ const Page13 = () => {
                   animation: 'fade-in-slow 3s ease-in'
                 }}
               >
-                May this year bring you everything you deserve and more ✨
+                for me this was the plot twist this year i never thought i would do this. wishing you luck for your everything, am sorry if it was too much    (^^)つ Bye
               </p>
             </div>
           </div>

@@ -32,7 +32,7 @@ const Page11 = () => {
     { text: "under-confident", delay: 1 },
     { text: "weird", delay: 1.5 },
     { text: "joke", delay: 2 },
-    { text: "desperate", delay: 2.5 },
+    { text: "get help", delay: 2.5 },
     { text: "pathetic", delay: 3 },
     { text: "loser", delay: 4 },
     { text: "weird", delay: 4.5 },

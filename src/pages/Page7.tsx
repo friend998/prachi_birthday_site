@@ -36,7 +36,7 @@ const Page7 = () => {
               fontFamily: 'Poppins, sans-serif'
             }}
           >
-            I wanted to address some things I couldn't make clear to you last time.
+            I wanted to address some things I couldn't make clear to you last time.<br></br> somethings that were unclear to you or me 
           </p>
 
           {/* Next button with gradient glow */}

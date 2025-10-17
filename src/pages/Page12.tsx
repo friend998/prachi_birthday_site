@@ -78,12 +78,12 @@ const Page12 = () => {
                 
                 {/* Opening statement */}
                 <p style={{ color: '#ffd6a5', fontWeight: '400' }}>
-                  I choose this path, the hard way, to get to the level of the first girl I ever fell for.
+                  I choose this path, the hard way, to get to the level of the first girl I ever fell for .
                 </p>
 
                 {/* Main commitment */}
                 <p style={{ color: '#f4f4f9', textShadow: '0 2px 10px rgba(0, 0, 0, 0.5)' }}>
-                  Hahahahaha ik it's gonna gonna take a lot of discipline, hardwork, and persistence to get to your level, but I will do it—you have my word there (so that the next time I meet you, most likely after our graduation, I will have no regrets like I have now from the days in Allen).
+                  hehehahaha ik it's gonna gonna take a lot of discipline, hardwork, and persistence to become spritually, financially (from a broke student to one of the top)  and looks wise (guess time for a second glow up) to get to your level,the level of a princess in my eyes,i might as well get depressed along the way, but I will do it—you have my word there (so that the next time I meet you, most likely after our graduation, I will have no regrets like I have now from the days in Allen).
                 </p>
 
                 {/* Thank you section */}
@@ -91,25 +91,25 @@ const Page12 = () => {
                   <p className="mb-4">And lastly, I would like to thank you:</p>
                   <ul className="space-y-3 pl-6">
                     <li style={{ color: '#ffcad4' }}>
-                      ✦ for making me experience what teenage love feels like even if it's one sided
+                      ✦ thanks for making me experience what love feels like for the first time even if it's one sided
                     </li>
                     <li style={{ color: '#cba6f7' }}>
-                      ✦ thanks for taking me out of my rabbit hole
+                      ✦ thanks for the impact
                     </li>
                     <li style={{ color: '#ffd6a5' }}>
-                      ✦ thanks for existing
+                      ✦ thanks for taking me out of my isolation and solitude
                     </li>
                   </ul>
                 </div>
 
                 {/* Acknowledgment */}
                 <p style={{ color: '#f4f4f9', opacity: 0.9, textShadow: '0 2px 10px rgba(0, 0, 0, 0.5)' }}>
-                  Ik my back story sounds creepy or straight out of anime, but it is what it is.
+                  Ik my back story sounds creepy  , but it is what it is.
                 </p>
 
                 {/* Closing commitment */}
                 <p style={{ color: '#ffd6a5', fontWeight: '400', fontSize: '1.1em' }}>
-                  I'll do my best to get to the level of the first girl I ever fell for, so that even if I get rejected at the end, I will be able to move on with no regrets.
+                I'll do my best to get to the level of the first girl I ever fell for, so that even if I get rejected at the end, I will be able to move on with no regrets.<br></br> <br></br> lets make one more attempt, not in persuit of success but to avoid the weight of regret .
                 </p>
 
               </div>

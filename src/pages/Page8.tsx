@@ -113,7 +113,7 @@ const Page8 = () => {
                   textShadow: '0 2px 10px rgba(0, 0, 0, 0.5)'
                 }}
               >
-                Now imagine a guy who throughout his entire 16-year-old spawn time never had any friends, had bare minimum interaction with people—only family members. In fact, barely went to school, never had any interests... gets interested in some girl and starts doing things. Things start working out for him just because...........
+                Now imagine a guy who throughout his entire 16-year-old spawn time never had any friends, had bare minimum interaction with people—only family members. In fact, barely went to school, never had any interests... gets interested in some girl the first girl and starts doing things. Things start working out for him just because......
                 <br /><br />
                 <span style={{ color: '#ffd6a5', fontWeight: '500' }}>
                   I hope you did read the last 3 pages so that you can understand.
@@ -158,7 +158,7 @@ const Page8 = () => {
                 textShadow: '0 0 20px rgba(203, 166, 247, 0.4)'
               }}
             >
-              I hope you get the lyrics.
+              i dont know what to answer on that? to find someone at my college ,how? i cant randomly start liking someone    I hope you get the lyrics(maybe you might find it a bit cringe).(refer to each line of the insta chat on top and each line of this song right here, thats it)
             </p>
           </div>
 
